@@ -21,8 +21,7 @@
                  VerticalScrollBarVisibility="Auto"
                  FontFamily="Consolas"
                  FontSize="12"
-                 Text="Message(&quot;Привет из скрипта!&quot;);"
-                 Height="100" />
+                 Height="300" />
 
         <!-- Список событий -->
         <DataGrid x:Name="EventsDataGrid"

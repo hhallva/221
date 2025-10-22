@@ -1,0 +1,17 @@
+// Добавить событие
+AddEvent(DateTime.Now.AddDays(1), "Встреча с заказчиком");
+
+// Вывести все события
+var events = GetEvents();
+foreach (var ev in events)
+{
+    Message(ev.ToString());
+}
+
+// Обновить первое событие
+UpdateEvent(0, DateTime.Now.AddHours(2), "Перенос встречи");
+
+// Удалить последнее событие
+var all = GetEvents();
+if (all.Count > 0)
+    RemoveEvent(all.Count - 1);

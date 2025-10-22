@@ -9,15 +9,17 @@ namespace LabWork7
     public class ScriptingHost
     {
         private readonly EventService _eventService;
-        private readonly ScriptOptions scriptOptions;
+        private readonly ScriptOptions _scriptOptions;
 
-        public ScriptingHost()
+        public ScriptingHost(EventService eventService)
         {
+            _eventService = eventService;
+
             var assemblies = AppDomain.CurrentDomain.GetAssemblies()
                 .Where(a => !a.IsDynamic && !string.IsNullOrEmpty(a.Location))
                 .ToArray();
 
-            scriptOptions = ScriptOptions.Default
+            _scriptOptions = ScriptOptions.Default
                 .WithReferences(assemblies)
                 .WithImports(
                     "System",
@@ -28,7 +30,8 @@ namespace LabWork7
 
         public async Task ExecuteAsync(string code)
         {
-            await CSharpScript.EvaluateAsync(code, scriptOptions, new Automation());
+            var globals = new Automation(_eventService);
+            await CSharpScript.EvaluateAsync(code, _scriptOptions, globals);
         }
 
         public async Task Run(CancellationToken token = default)
