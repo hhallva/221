@@ -3,9 +3,11 @@
 class Program
 {
 
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
-       // TemperatureAnalyzer.Task2();
+        //await HttpRetry.Task1();
+
+        //TemperatureAnalyzer.Task2();
 
         FileStorageApp.Task3();
     }

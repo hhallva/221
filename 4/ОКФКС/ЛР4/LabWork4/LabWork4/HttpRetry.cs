@@ -1,16 +1,21 @@
-﻿using System.Net.Http;
-
-namespace LabWork4
+﻿namespace LabWork4
 {
     public class HttpRetry
     {
-        private static readonly HttpClient httpClient = new HttpClient();
+        private static readonly HttpClient httpClient = new HttpClient()
+        {
+            Timeout = TimeSpan.FromSeconds(10)
+        };
+
         private const int MaxRetries = 3;
         private const int BaseDelayMs = 1000;
 
-        public static async void Task1()
+        public static async Task Task1()
         {
-            string url = " https://www.arcotel.ru/";
+            string url = "https://www.arcotel.ru/".Trim();
+
+            httpClient.DefaultRequestHeaders.UserAgent.ParseAdd(
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36");
 
             try
             {
@@ -44,7 +49,7 @@ namespace LabWork4
                         throw new HttpRequestException($"HTTP Error: {response.StatusCode}");
                     }
                 }
-                catch (HttpRequestException ex)
+                catch (Exception ex) when (ex is HttpRequestException || ex is TaskCanceledException)
                 {
                     lastException = ex;
                     retryCount++;
@@ -52,14 +57,14 @@ namespace LabWork4
 
                     if (retryCount < MaxRetries)
                     {
-                        int delayMs = BaseDelayMs * (int)Math.Pow(2, retryCount - 1);
-                        Console.WriteLine($"Повтор через {delayMs}мс...");
+                        int delayMs = BaseDelayMs * (int)Math.Pow(2, retryCount - 1); // экспоненциальная задержка
+                        Console.WriteLine($"Повтор через {delayMs} мс...");
                         await Task.Delay(delayMs);
                     }
                 }
             }
 
-            throw lastException;
+            throw lastException ?? new InvalidOperationException("Неизвестная ошибка при выполнении HTTP-запроса.");
         }
     }
 }

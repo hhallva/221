@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Temp\\.ISPP-21\\4\\LabWork4\\LabWork4\\LabWork4.csproj",
+      "projectUniqueName": "C:\\Temp\\!ГРУППЫ\\!ИСПП-21\\4\\ОКФКС\\ЛР4\\LabWork4\\LabWork4\\LabWork4.csproj",
       "projectName": "LabWork4",
-      "projectPath": "C:\\Temp\\.ISPP-21\\4\\LabWork4\\LabWork4\\LabWork4.csproj",
+      "projectPath": "C:\\Temp\\!ГРУППЫ\\!ИСПП-21\\4\\ОКФКС\\ЛР4\\LabWork4\\LabWork4\\LabWork4.csproj",
       "packagesPath": "C:\\NugetCache\\Packages",
-      "outputPath": "C:\\Temp\\.ISPP-21\\4\\LabWork4\\LabWork4\\obj\\",
+      "outputPath": "C:\\Temp\\!ГРУППЫ\\!ИСПП-21\\4\\ОКФКС\\ЛР4\\LabWork4\\LabWork4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
