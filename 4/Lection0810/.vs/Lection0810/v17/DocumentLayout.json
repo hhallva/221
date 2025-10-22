@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Temp\\.ISPP-21\\4\\Lection0810\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C723720-4157-4FD5-B05A-AC0EE2813686}|Console.Console\\Console.Console.csproj|c:\\temp\\.ispp-21\\4\\lection0810\\console.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C723720-4157-4FD5-B05A-AC0EE2813686}|Console.Console\\Console.Console.csproj|solutionrelative:console.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3A9764-1EB0-490A-B1EB-568126ECC03B}|Lection0810\\Lection0810.csproj|c:\\temp\\.ispp-21\\4\\lection0810\\lection0810\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AB3A9764-1EB0-490A-B1EB-568126ECC03B}|Lection0810\\Lection0810.csproj|solutionrelative:lection0810\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB3A9764-1EB0-490A-B1EB-568126ECC03B}|Lection0810\\Lection0810.csproj|c:\\temp\\.ispp-21\\4\\lection0810\\lection0810\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB3A9764-1EB0-490A-B1EB-568126ECC03B}|Lection0810\\Lection0810.csproj|solutionrelative:lection0810\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Temp\\.ISPP-21\\4\\Lection0810\\Console.Console\\Program.cs",
+              "RelativeDocumentMoniker": "Console.Console\\Program.cs",
+              "ToolTip": "C:\\Temp\\.ISPP-21\\4\\Lection0810\\Console.Console\\Program.cs",
+              "RelativeToolTip": "Console.Console\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T08:00:41.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Temp\\.ISPP-21\\4\\Lection0810\\Lection0810\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Lection0810\\MainWindow.xaml",
+              "ToolTip": "C:\\Temp\\.ISPP-21\\4\\Lection0810\\Lection0810\\MainWindow.xaml",
+              "RelativeToolTip": "Lection0810\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-10-08T07:58:54.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Temp\\.ISPP-21\\4\\Lection0810\\Lection0810\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Lection0810\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Temp\\.ISPP-21\\4\\Lection0810\\Lection0810\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Lection0810\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T07:58:53.11Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

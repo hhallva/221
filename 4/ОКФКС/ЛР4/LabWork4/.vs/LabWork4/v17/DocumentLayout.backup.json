@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Temp\\.ISPP-21\\4\\LabWork4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0FD4A3-E43A-4021-8AD3-99D8D4FE3D38}|LabWork4\\LabWork4.csproj|c:\\temp\\.ispp-21\\4\\labwork4\\labwork4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0FD4A3-E43A-4021-8AD3-99D8D4FE3D38}|LabWork4\\LabWork4.csproj|solutionrelative:labwork4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0FD4A3-E43A-4021-8AD3-99D8D4FE3D38}|LabWork4\\LabWork4.csproj|c:\\temp\\.ispp-21\\4\\labwork4\\labwork4\\filestorageapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0FD4A3-E43A-4021-8AD3-99D8D4FE3D38}|LabWork4\\LabWork4.csproj|solutionrelative:labwork4\\filestorageapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0FD4A3-E43A-4021-8AD3-99D8D4FE3D38}|LabWork4\\LabWork4.csproj|c:\\temp\\.ispp-21\\4\\labwork4\\labwork4\\temperatureanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0FD4A3-E43A-4021-8AD3-99D8D4FE3D38}|LabWork4\\LabWork4.csproj|solutionrelative:labwork4\\temperatureanalyzer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C0FD4A3-E43A-4021-8AD3-99D8D4FE3D38}|LabWork4\\LabWork4.csproj|c:\\temp\\.ispp-21\\4\\labwork4\\labwork4\\httpretry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C0FD4A3-E43A-4021-8AD3-99D8D4FE3D38}|LabWork4\\LabWork4.csproj|solutionrelative:labwork4\\httpretry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileStorageApp.cs",
+              "DocumentMoniker": "C:\\Temp\\.ISPP-21\\4\\LabWork4\\LabWork4\\FileStorageApp.cs",
+              "RelativeDocumentMoniker": "LabWork4\\FileStorageApp.cs",
+              "ToolTip": "C:\\Temp\\.ISPP-21\\4\\LabWork4\\LabWork4\\FileStorageApp.cs",
+              "RelativeToolTip": "LabWork4\\FileStorageApp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T12:58:42.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HttpRetry.cs",
+              "DocumentMoniker": "C:\\Temp\\.ISPP-21\\4\\LabWork4\\LabWork4\\HttpRetry.cs",
+              "RelativeDocumentMoniker": "LabWork4\\HttpRetry.cs",
+              "ToolTip": "C:\\Temp\\.ISPP-21\\4\\LabWork4\\LabWork4\\HttpRetry.cs",
+              "RelativeToolTip": "LabWork4\\HttpRetry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T12:54:42.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TemperatureAnalyzer.cs",
+              "DocumentMoniker": "C:\\Temp\\.ISPP-21\\4\\LabWork4\\LabWork4\\TemperatureAnalyzer.cs",
+              "RelativeDocumentMoniker": "LabWork4\\TemperatureAnalyzer.cs",
+              "ToolTip": "C:\\Temp\\.ISPP-21\\4\\LabWork4\\LabWork4\\TemperatureAnalyzer.cs",
+              "RelativeToolTip": "LabWork4\\TemperatureAnalyzer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T12:15:13.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Temp\\.ISPP-21\\4\\LabWork4\\LabWork4\\Program.cs",
+              "RelativeDocumentMoniker": "LabWork4\\Program.cs",
+              "ToolTip": "C:\\Temp\\.ISPP-21\\4\\LabWork4\\LabWork4\\Program.cs*",
+              "RelativeToolTip": "LabWork4\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T11:38:38.39Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

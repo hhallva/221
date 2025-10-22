@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "BhSs7DV/whc=",
+  "success": true,
+  "projectFilePath": "C:\\Temp\\!ГРУППЫ\\!ИСПП-21\\4\\ОКФКС\\ЛР7\\LabWork7\\LabWork7\\LabWork7.csproj",
+  "expectedPackageFiles": [
+    "C:\\NugetCache\\Packages\\microsoft.codeanalysis.analyzers\\3.11.0\\microsoft.codeanalysis.analyzers.3.11.0.nupkg.sha512",
+    "C:\\NugetCache\\Packages\\microsoft.codeanalysis.common\\4.14.0\\microsoft.codeanalysis.common.4.14.0.nupkg.sha512",
+    "C:\\NugetCache\\Packages\\microsoft.codeanalysis.csharp\\4.14.0\\microsoft.codeanalysis.csharp.4.14.0.nupkg.sha512",
+    "C:\\NugetCache\\Packages\\microsoft.codeanalysis.csharp.scripting\\4.14.0\\microsoft.codeanalysis.csharp.scripting.4.14.0.nupkg.sha512",
+    "C:\\NugetCache\\Packages\\microsoft.codeanalysis.scripting.common\\4.14.0\\microsoft.codeanalysis.scripting.common.4.14.0.nupkg.sha512",
+    "C:\\NugetCache\\Packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\NugetCache\\Packages\\system.collections.immutable\\9.0.0\\system.collections.immutable.9.0.0.nupkg.sha512",
+    "C:\\NugetCache\\Packages\\system.reflection.metadata\\9.0.0\\system.reflection.metadata.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
