@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Obfuscator>
-	<Var name="InPath" value="bin\Release\net8.0" />
-	<Var name="OutPath" value="bin\Release-Obfuscated" />
-	<Var name="KeepPublicApi" value="false"/>
-	<Var name="UseKoreanNames" value="true"/>
-	<Module file="$(InPath)\LabWork8.dll"/>
-</Obfuscator>
