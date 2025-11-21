@@ -1,0 +1,22 @@
+﻿<Window x:Class="WindowsLogin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WindowsLogin"
+        mc:Ignorable="d"
+        Title="Система аутентификации" Height="450" Width="600">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Windows аутентификация">
+                <local:WindowsAuthControl/>
+            </TabItem>
+            <TabItem Header="База данных (пароли)">
+                <local:DatabaseAuthControl/>
+            </TabItem>
+            <TabItem Header="База данных (RSA ключи)">
+                <local:RsaAuthControl/>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

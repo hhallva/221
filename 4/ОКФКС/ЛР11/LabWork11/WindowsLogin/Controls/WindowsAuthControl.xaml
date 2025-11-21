@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="WindowsLogin.WindowsAuthControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WindowsLogin"
+             Height="400" Width="500">
+    <StackPanel Margin="20">
+        <TextBlock Text="Аутентификация Windows" FontSize="16" FontWeight="Bold" Margin="0,0,0,20"/>
+
+        <TextBlock Text="Текущий пользователь Windows:" Margin="0,0,0,10"/>
+        <TextBlock x:Name="CurrentUserText" FontWeight="Bold" Margin="0,0,0,20"/>
+
+        <Button Content="Аутентифицироваться" Click="AuthenticateButton_Click" 
+                Height="30" Width="150" Margin="0,20,0,0"/>
+
+        <TextBlock x:Name="ResultText" Margin="0,20,0,0" FontWeight="Bold"/>
+    </StackPanel>
+</UserControl>

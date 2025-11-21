@@ -1,0 +1,49 @@
+﻿<UserControl x:Class="WindowsLogin.RsaAuthControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WindowsLogin"
+             Height="400" Width="500">
+    <StackPanel Margin="20">
+        <TextBlock Text="Аутентификация через БД (RSA ключи)" FontSize="16" FontWeight="Bold" Margin="0,0,0,20"/>
+
+        <TabControl>
+            <TabItem Header="Регистрация">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Имя пользователя:" Margin="0,0,0,5"/>
+                    <TextBox x:Name="RsaRegUsername" Height="25" Margin="0,0,0,10"/>
+
+                    <TextBlock Text="Роль:" Margin="0,0,0,5"/>
+                    <ComboBox x:Name="RsaRegRole" Height="25" Margin="0,0,0,20">
+                        <ComboBoxItem Content="Admin" IsSelected="True"/>
+                        <ComboBoxItem Content="Moderator"/>
+                        <ComboBoxItem Content="User"/>
+                    </ComboBox>
+
+                    <Button Content="Сгенерировать ключи и зарегистрировать" 
+                            Click="RsaRegisterButton_Click" Height="30" Width="250"/>
+
+                    <TextBlock x:Name="PrivateKeyInfo" Margin="0,10,0,0" TextWrapping="Wrap"/>
+                </StackPanel>
+            </TabItem>
+
+            <TabItem Header="Вход">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Имя пользователя:" Margin="0,0,0,5"/>
+                    <TextBox x:Name="RsaLoginUsername" Height="25" Margin="0,0,0,10"/>
+
+                    <TextBlock Text="Файл приватного ключа:" Margin="0,0,0,5"/>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,20">
+                        <TextBox x:Name="PrivateKeyPath" Height="25" Width="300" IsReadOnly="True"/>
+                        <Button Content="Обзор" Click="BrowsePrivateKey_Click" 
+                                Height="25" Width="60" Margin="10,0,0,0"/>
+                    </StackPanel>
+
+                    <Button Content="Войти" Click="RsaLoginButton_Click" 
+                            Height="30" Width="120"/>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+
+        <TextBlock x:Name="RsaAuthResult" Margin="0,20,0,0" FontWeight="Bold"/>
+    </StackPanel>
+</UserControl>
